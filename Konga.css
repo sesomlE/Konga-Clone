@@ -1,0 +1,346 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(231, 231, 231);
+}
+
+.header {
+    background-color: white; /* Konga pink */
+    color: white;
+}
+
+.top-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-display{
+    width: 100%;
+}
+
+.logo {
+    height: 50px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    height: auto;
+    width: auto;
+}
+
+.firstimgs{
+    height: 20px;
+}
+
+.navbar2{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    margin: auto;
+    background-color: #ff4081;
+    padding: 10px 20px;
+}
+
+.search-container {
+    display: flex;
+    gap: 10px;
+}
+
+.search-container input {
+    padding: 5px;
+}
+
+.left-items{
+    margin-right: 3rem;
+    
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.link:hover{
+    background-color: white;
+    padding: 15px;
+    color: red;
+}
+
+.cart{
+    background-color: rgb(73, 106, 23);
+    cursor: pointer;
+    color: white;
+    border: none;
+    padding: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 2px;
+}
+
+
+/*<<=========================================MAIN PAGE===================================================>>*/
+.page{
+    background-color: rgb(231, 231, 231);
+    margin-bottom: 4rem;
+}
+
+.head{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    box-shadow: 0 2px 8px rgba(122, 105, 105, 0.45);
+}
+
+.head p{
+    margin-left: 3.5rem;
+    font-size: small;
+}
+.head h1{
+    margin-left: 3.5rem;
+}
+
+.head span{
+    color: red;
+    font-weight: 600;
+}
+
+.advert{
+    width: 92%;
+    height: 300px;
+    margin-top: 3rem;
+    background-color: white;
+    margin: auto;
+    margin-top: 2rem;
+    border: 1px solid #ccc;
+}
+
+.large-img{  /*This makes the image take the full with and length of the div*/
+    width: 100%;
+    height: 100%;
+}
+
+.categories {
+    background-color: #f5006d; /* Konga pink */
+    padding: 10px 20px;
+}
+
+.categories ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.main-items {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+.product {
+    width: 15rem;
+    height: 27rem;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.product img {
+    max-width: 100%;
+    height: 45%;
+    margin-bottom: 1rem;
+}
+.product h3 {
+    margin-top: 10px;
+}
+.pro-tit{
+    height: 30px;
+}
+.product p {
+    margin: 5px 0;
+}
+.product button {
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+    border-radius: 3px;
+    padding: 7px 70px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.product button:hover{
+    background-color: red;
+    color: white;
+}
+
+/*============================== FOOTER ===================================*/
+footer {
+    background-color: #181616;
+    color: #fff;
+    margin-left: auto;
+}
+
+/* .footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #333;
+    border-bottom: 1px solid #555;
+} */
+
+.support {
+    gap: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #333;
+    border-bottom: 1px solid #555;
+}
+
+.support-item {
+    font-size: 14px;
+    color: #b1aeae;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.support-item p:first-child {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.subscribe{
+    font-size: 14px;
+    color: #b1aeae;
+}
+
+.subscribe p:first-child {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.fill-in input {
+    padding: 8px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.fill-in button {
+    padding: 8px 12px;
+    background-color: #ff007b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.footer-column h4 {
+    cursor: pointer;
+    color: #b0adad;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+.footer-column h4:hover{
+    color: white;
+}
+
+.footer-column p {
+    cursor: pointer;
+    color: #939090;
+    font-size: small;
+    margin: 10px 0;
+}
+.footer-column p:hover{
+    color: white;
+}
+
+.app-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.app-buttons button {
+    padding: 10px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media p {
+    margin-bottom: 10px;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #555;
+    padding: 10px 0;
+    font-size: 12px;
+}
+
+
+/*media Queries=====================>*/
+@media screen and (min-width: 448px) {
+    .footer{
+        grid-template-columns: repeat(3,1fr);
+        text-align: center;
+        align-items: flex-start;
+    }
+    .footer-column{
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .footer{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .footer{
+        padding: 2rem;
+    }
+}
